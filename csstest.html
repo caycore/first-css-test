@@ -1,29 +1,37 @@
 <html>
     <head>
         <title>Deneme</title>
-        <style>
-            button {
-                background-color: #444444;
-                color: rgb(100, 255, 130);
-                padding-bottom: 10px;
-                border-radius: 8px;
-                padding-right: 20px;
-                padding-left: 20px;
-                padding-top: 10px;
-                user-select: none;
-                font-size: 14px;
-                border: none; 
-            }
-            button:hover {
-                opacity: 0.75;
-                cursor: pointer;
-            }
-            button:active {
-                transform: translateY(2px);
-            }
-        </style>
+        <link rel="stylesheet" href="./style.css" type="text/css" />
     </head>
     <body>
-        <button>Giriş Yap</button>
+        <div class="header-container">
+            <div
+                class="header-left-side-container"
+            >
+                <img
+                    src="./nibgat.jpg"
+                    height="75px"
+                    width="75px"
+                    class="logo"
+                />
+                <div class="header-desc-container">
+                    <span class="header-title">
+                        Furkan Atakan BOZKURT
+                    </span>
+                    <span class="header-content">
+                        Software Developer
+                    </span>
+                </div>
+            </div>
+            <div class="header-menu">
+                <a href="#">Anasayfa</a>
+                <a href="#">Hakkımda</a>
+                <a href="#">İletişim</a>
+            </div>
+        </div>
+        <button onclick="alert('Hello world bastıkça :D')">Tıkla</button>
+        <script>
+            alert("Hello world!.");
+        </script>
     </body>
 </html>
